@@ -1,0 +1,12 @@
+h1 {
+  color: yellow;
+  text-align: center;
+  font-size: 98px;
+}
+button {
+  font-size: 90px;
+  width: 100%;
+}
+body {
+  height: 50px;
+}
