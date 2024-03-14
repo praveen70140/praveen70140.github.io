@@ -3,22 +3,32 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <title>color game</title>
-      
   </head>
   <body>
-    <nav>
-      <a href="https://github.com/praveen70140/praveen70140.github.io" id="gitrepo">github reposetry</a>
-    </nav>
-    
-    <h2>click  on the color in  which colur text is written</h2>
-    <h1 id="heading">red</h1>
-    <div id="buttons"><button id="b1" onclick="button(0)">red</button>
-    <button id="b2" onclick="button(1)">yellow</button>
-    <button id="b4" onclick="button(2)">blue</button>
-    <button id="b3" onclick="button(3)">green</button>
-  </div>
-    
-    
+    <button id="playbuton" onclick="randamizefirst()">play now</button>
+
+    <div id="game">
+      <nav>
+        <a
+          href="https://github.com/praveen70140/praveen70140.github.io"
+          id="gitrepo"
+          >github reposetry</a
+        >
+      </nav>
+
+      <h2>click on the color in which colur text is written</h2>
+      <h1 id="heading">red</h1>
+      <div id="buttons">
+        <button id="b1" onclick="button(0)">red</button>
+        <button id="b2" onclick="button(1)">yellow</button>
+        <button id="b4" onclick="button(2)">blue</button>
+        <button id="b3" onclick="button(3)">green</button>
+      </div>
+    </div>
+    <div id="dashboard">
+      <table id="table"></table>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
